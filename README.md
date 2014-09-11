@@ -12,6 +12,7 @@ Changelog
 
 * **1.0.1**: Check file read and write permissions before beginning patch process. 
 * **1.0.0**: Initial Release
+* **1.1**: Added GUI
 
 Download
 --------
@@ -19,4 +20,3 @@ You can grab downloads of current and past versions from our [Jenkins server](ht
 
 TODO
 ----
-* Simple and easy to use GUI.

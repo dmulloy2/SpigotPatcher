@@ -4,7 +4,7 @@
 
     <groupId>org.spigotmc</groupId>
     <artifactId>patcher</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>SpigotPatcher</name>
@@ -81,7 +81,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Main-Class>org.spigotmc.patcher.Main</Main-Class> 
+                            <Main-Class>org.spigotmc.patcher.SpigotPatcher</Main-Class> 
                         </manifestEntries>
                     </archive>
                 </configuration>
@@ -118,5 +118,15 @@
                 </configuration>
             </plugin>-->
         </plugins>
+        <resources>
+        	<resource>
+        		<targetPath>.</targetPath>
+        		<directory>${basedir}</directory>
+        		<filtering>true</filtering>
+        		<includes>
+        			<include>spigot.png</include>
+        		</includes>
+        	</resource>
+        </resources>
     </build>
 </project>
